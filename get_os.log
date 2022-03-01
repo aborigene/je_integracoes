@@ -1,0 +1,171 @@
+2022-02-28 17:51:01 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: je_get_os)
+2022-02-28 17:51:01 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform Windows-10-10.0.22000-SP0
+2022-02-28 17:51:01 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-02-28 17:58:46 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: je_get_os)
+2022-02-28 17:58:46 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform Windows-10-10.0.22000-SP0
+2022-02-28 17:58:46 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-02-28 17:58:46 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'je_get_os',
+ 'LOG_FILE': 'get_os.log',
+ 'NEWSPIDER_MODULE': 'je_get_os.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['je_get_os.spiders']}
+2022-02-28 17:58:46 [scrapy.extensions.telnet] INFO: Telnet Password: a1bbe074fc9f7ac8
+2022-02-28 17:58:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-02-28 17:58:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-02-28 17:58:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-02-28 17:58:46 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-02-28 17:58:46 [scrapy.core.engine] INFO: Spider opened
+2022-02-28 17:58:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-02-28 17:58:48 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-02-28 17:58:53 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://zencheck.com.br/robots.txt> (referer: None)
+2022-02-28 17:58:53 [protego] DEBUG: Rule at line 1 without any user agent to enforce it on.
+2022-02-28 17:58:53 [protego] DEBUG: Rule at line 2 without any user agent to enforce it on.
+2022-02-28 17:58:53 [protego] DEBUG: Rule at line 8 without any user agent to enforce it on.
+2022-02-28 17:58:53 [protego] DEBUG: Rule at line 9 without any user agent to enforce it on.
+2022-02-28 17:58:53 [protego] DEBUG: Rule at line 10 without any user agent to enforce it on.
+2022-02-28 17:58:53 [protego] DEBUG: Rule at line 11 without any user agent to enforce it on.
+2022-02-28 17:58:53 [protego] DEBUG: Rule at line 12 without any user agent to enforce it on.
+2022-02-28 17:58:58 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://zencheck.com.br/Extintor%5CHome/Error?ticket=c036b4c5-7432-442b-8eb9-dd62c2649427&message=> from <GET https://zencheck.com.br/Extintor/Login/Login>
+2022-02-28 17:58:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://zencheck.com.br/Extintor%5CHome/Error?ticket=c036b4c5-7432-442b-8eb9-dd62c2649427&message=> (referer: None)
+2022-02-28 17:58:58 [scrapy.core.scraper] ERROR: Spider error processing <GET https://zencheck.com.br/Extintor%5CHome/Error?ticket=c036b4c5-7432-442b-8eb9-dd62c2649427&message=> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spiders\__init__.py", line 93, in parse
+    raise NotImplementedError(f'{self.__class__.__name__}.parse callback is not defined')
+NotImplementedError: LoginSpider.parse callback is not defined
+2022-02-28 17:58:58 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-02-28 17:58:58 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 801,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 3637,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 10.621512,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 2, 28, 20, 58, 58, 930741),
+ 'log_count/DEBUG': 10,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/NotImplementedError': 1,
+ 'start_time': datetime.datetime(2022, 2, 28, 20, 58, 48, 309229)}
+2022-02-28 17:58:58 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-03-01 15:17:38 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: je_get_os)
+2022-03-01 15:17:38 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform Windows-10-10.0.22000-SP0
+2022-03-01 15:17:38 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-03-01 15:17:38 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'je_get_os',
+ 'LOG_FILE': 'get_os.log',
+ 'NEWSPIDER_MODULE': 'je_get_os.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['je_get_os.spiders']}
+2022-03-01 15:17:38 [scrapy.extensions.telnet] INFO: Telnet Password: a526de765a49260e
+2022-03-01 15:17:38 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-03-01 15:17:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-03-01 15:17:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-03-01 15:17:38 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-03-01 15:17:38 [scrapy.core.engine] INFO: Spider opened
+2022-03-01 15:17:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-03-01 15:17:38 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-03-01 15:17:39 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://zencheck.com.br/robots.txt> (referer: None)
+2022-03-01 15:17:39 [protego] DEBUG: Rule at line 1 without any user agent to enforce it on.
+2022-03-01 15:17:39 [protego] DEBUG: Rule at line 2 without any user agent to enforce it on.
+2022-03-01 15:17:39 [protego] DEBUG: Rule at line 8 without any user agent to enforce it on.
+2022-03-01 15:17:39 [protego] DEBUG: Rule at line 9 without any user agent to enforce it on.
+2022-03-01 15:17:39 [protego] DEBUG: Rule at line 10 without any user agent to enforce it on.
+2022-03-01 15:17:39 [protego] DEBUG: Rule at line 11 without any user agent to enforce it on.
+2022-03-01 15:17:39 [protego] DEBUG: Rule at line 12 without any user agent to enforce it on.
+2022-03-01 15:17:39 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://zencheck.com.br/Extintor%5CHome/Error?ticket=55448de6-759d-457a-8f8f-a6bd518bd111&message=> from <GET https://zencheck.com.br/Extintor/Login/Login>
+2022-03-01 15:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://zencheck.com.br/Extintor%5CHome/Error?ticket=55448de6-759d-457a-8f8f-a6bd518bd111&message=> (referer: None)
+2022-03-01 15:17:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://zencheck.com.br/Extintor%5CHome/Error?ticket=55448de6-759d-457a-8f8f-a6bd518bd111&message=> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spiders\__init__.py", line 93, in parse
+    raise NotImplementedError(f'{self.__class__.__name__}.parse callback is not defined')
+NotImplementedError: LoginSpider.parse callback is not defined
+2022-03-01 15:17:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-03-01 15:17:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 801,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 3637,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 1.576935,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 1, 18, 17, 40, 102776),
+ 'log_count/DEBUG': 10,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/NotImplementedError': 1,
+ 'start_time': datetime.datetime(2022, 3, 1, 18, 17, 38, 525841)}
+2022-03-01 15:17:40 [scrapy.core.engine] INFO: Spider closed (finished)
